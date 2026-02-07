@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 560" fill="none">
+  <!-- Phone frame -->
+  <rect x="20" y="10" width="240" height="540" rx="32" fill="#1a1a1a" stroke="#333" stroke-width="2"/>
+  <rect x="32" y="24" width="216" height="516" rx="24" fill="#0d5c5c"/>
+  <!-- Status bar -->
+  <rect x="32" y="24" width="216" height="32" rx="24" fill="rgba(0,0,0,0.2)"/>
+  <circle cx="60" cy="40" r="4" fill="white"/>
+  <rect x="75" y="37" width="40" height="6" rx="2" fill="rgba(255,255,255,0.9)"/>
+  <rect x="200" y="38" width="36" height="4" rx="1" fill="rgba(255,255,255,0.7)"/>
+  <!-- App: banking / flow finance -->
+  <rect x="48" y="72" width="184" height="36" rx="8" fill="white" opacity="0.95"/>
+  <rect x="48" y="120" width="184" height="80" rx="12" fill="rgba(255,255,255,0.9)"/>
+  <rect x="64" y="132" width="80" height="10" rx="2" fill="rgba(0,0,0,0.3)"/>
+  <rect x="64" y="158" width="120" height="24" rx="2" fill="rgba(0,0,0,0.2)"/>
+  <rect x="48" y="214" width="88" height="72" rx="10" fill="rgba(255,255,255,0.85)"/>
+  <rect x="144" y="214" width="88" height="72" rx="10" fill="rgba(255,255,255,0.85)"/>
+  <rect x="64" y="230" width="56" height="8" rx="1" fill="rgba(0,0,0,0.25)"/>
+  <rect x="160" y="230" width="56" height="8" rx="1" fill="rgba(0,0,0,0.25)"/>
+  <rect x="48" y="300" width="184" height="48" rx="24" fill="white"/>
+  <rect x="48" y="362" width="184" height="12" rx="2" fill="rgba(255,255,255,0.6)"/>
+  <rect x="48" y="382" width="120" height="12" rx="2" fill="rgba(255,255,255,0.5)"/>
+</svg>

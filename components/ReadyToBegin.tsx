@@ -1,0 +1,101 @@
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+import { motion } from "framer-motion";
+
+const cards = [
+  {
+    title: "Ready to begin?",
+    description:
+      "Start with discovery and strategy. We align technical vision with your product goals and deliver a clear roadmap.",
+    image: "/images/cta-phone.png",
+    imageAlt: "Mobile app mockup",
+    href: "#contact",
+    cta: "Start my project",
+    accent: "from-accent/20",
+  },
+  {
+    title: "Ready to build?",
+    description:
+      "High-performance engineering for web and mobile. We ship production-grade applications with clean architecture.",
+    image: "/images/cta-laptop.png",
+    imageAlt: "Laptop with code mockup",
+    href: "#services",
+    cta: "See our work",
+    accent: "from-purple-500/20",
+  },
+  {
+    title: "Ready to scale?",
+    description:
+      "Scale and reliability with SRE practices. Observability, automation, and resilience built into every system.",
+    image: "/images/cta-desktop.png",
+    imageAlt: "Desktop monitor mockup",
+    href: "#contact",
+    cta: "Get in touch",
+    accent: "from-blue-500/20",
+  },
+];
+
+export default function ReadyToBegin() {
+  return (
+    <section
+      className="py-24 lg:py-32"
+      aria-labelledby="ready-heading"
+    >
+      <div className="mx-auto max-w-[90rem] px-[clamp(1.25rem,5vw,3rem)]">
+        {/* Header */}
+        <div className="mb-16 text-center">
+          <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-accent">
+            Let&apos;s Work Together
+          </p>
+          <h2
+            id="ready-heading"
+            className="font-serif text-display font-normal tracking-tight text-foreground"
+          >
+            Ready to begin?
+          </h2>
+        </div>
+
+        {/* Cards */}
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {cards.map((card, i) => (
+            <motion.article
+              key={card.title}
+              initial={{ opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-40px" }}
+              transition={{ duration: 0.5, delay: i * 0.1 }}
+              className="card group flex flex-col overflow-hidden"
+              data-cursor-hover
+            >
+              <div className={`relative flex min-h-[220px] items-center justify-center bg-gradient-to-br ${card.accent} to-transparent p-8`}>
+                <Image
+                  src={card.image}
+                  alt={card.imageAlt}
+                  width={i === 0 ? 120 : i === 1 ? 200 : 220}
+                  height={i === 0 ? 220 : i === 1 ? 130 : 150}
+                  className="object-contain transition-transform duration-500 group-hover:scale-105"
+                  unoptimized
+                />
+              </div>
+              <div className="flex flex-1 flex-col p-8">
+                <h3 className="font-sans text-xl font-semibold text-foreground">
+                  {card.title}
+                </h3>
+                <p className="mt-3 flex-1 text-base leading-relaxed text-foreground-muted">
+                  {card.description}
+                </p>
+                <div className="mt-6">
+                  <Link href={card.href} className="btn-primary btn-sm">
+                    {card.cta}
+                  </Link>
+                </div>
+              </div>
+            </motion.article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

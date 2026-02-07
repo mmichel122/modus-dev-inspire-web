@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" fill="none">
+  <!-- Monitor frame -->
+  <rect x="20" y="0" width="360" height="220" rx="8" fill="#1a1a1a" stroke="#333" stroke-width="2"/>
+  <rect x="32" y="12" width="336" height="196" rx="4" fill="#0f1419"/>
+  <!-- Code screen -->
+  <rect x="48" y="28" width="80" height="8" rx="1" fill="rgba(13,92,92,0.5)"/>
+  <rect x="48" y="44" width="120" height="8" rx="1" fill="rgba(255,255,255,0.15)"/>
+  <rect x="48" y="60" width="100" height="8" rx="1" fill="rgba(255,255,255,0.1)"/>
+  <rect x="56" y="76" width="90" height="8" rx="1" fill="rgba(255,255,255,0.08)"/>
+  <rect x="56" y="92" width="140" height="8" rx="1" fill="rgba(255,255,255,0.1)"/>
+  <rect x="48" y="108" width="60" height="8" rx="1" fill="rgba(13,92,92,0.4)"/>
+  <rect x="48" y="124" width="200" height="8" rx="1" fill="rgba(255,255,255,0.08)"/>
+  <rect x="56" y="140" width="160" height="8" rx="1" fill="rgba(255,255,255,0.06)"/>
+  <rect x="48" y="164" width="280" height="4" rx="1" fill="rgba(255,255,255,0.04)"/>
+  <rect x="48" y="176" width="100" height="8" rx="1" fill="rgba(255,255,255,0.12)"/>
+  <rect x="48" y="192" width="120" height="8" rx="1" fill="rgba(255,255,255,0.08)"/>
+  <!-- Stand -->
+  <rect x="160" y="220" width="80" height="24" rx="2" fill="#252525"/>
+  <rect x="175" y="244" width="50" height="16" rx="4" fill="#333"/>
+</svg>
