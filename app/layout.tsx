@@ -20,6 +20,12 @@ export const metadata: Metadata = {
   title: "Modus Dev Inspire | Architecting Digital Inspiration",
   description:
     "Bespoke mobile and web applications built with SRE-grade reliability and visionary design. Discovery, high-performance engineering, and scale.",
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    apple: "/favicon.png",
+  },
   openGraph: {
     title: "Modus Dev Inspire | Architecting Digital Inspiration",
     description:
