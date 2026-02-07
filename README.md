@@ -1,4 +1,4 @@
-# Modus Dev Inspire
+# Modus Design Inspire
 
 A modern, high-performance corporate website built with Next.js 14, featuring a polished design system with smooth animations and responsive layouts.
 
@@ -113,4 +113,4 @@ MIT License - feel free to use this project for your own purposes.
 
 ---
 
-Built with ❤️ by [Modus Dev Inspire](https://modusdevinspire.com)
+Built with ❤️ by [Modus Design Inspire](https://modusdevinspire.com)

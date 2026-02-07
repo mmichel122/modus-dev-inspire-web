@@ -28,8 +28,9 @@ export default function Hero() {
             <span className="text-accent">Digital Inspiration</span>
           </h1>
           <p className="mt-8 max-w-xl text-body-lg leading-relaxed text-foreground-muted lg:pr-8">
-            Bespoke mobile and web applications built with SRE-grade reliability
-            and visionary design. From discovery to scale.
+            Bespoke digital products powered by multi-cloud infrastructure,
+            enterprise AI, and workflow automation—delivered with SRE-grade
+            reliability. From discovery to scale.
           </p>
           <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row lg:justify-start">
             <Link href="#portfolio" className="btn-primary">

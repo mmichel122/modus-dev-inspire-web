@@ -17,9 +17,9 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Modus Dev Inspire | Architecting Digital Inspiration",
+  title: "Modus Design Inspire | Architecting Digital Inspiration",
   description:
-    "Bespoke mobile and web applications built with SRE-grade reliability and visionary design. Discovery, high-performance engineering, and scale.",
+    "Bespoke digital products powered by multi-cloud infrastructure, enterprise AI, and workflow automation—delivered with SRE-grade reliability. Discovery, high-performance engineering, and scale.",
   icons: {
     icon: [
       { url: "/favicon.png", type: "image/png" },
@@ -27,15 +27,15 @@ export const metadata: Metadata = {
     apple: "/favicon.png",
   },
   openGraph: {
-    title: "Modus Dev Inspire | Architecting Digital Inspiration",
+    title: "Modus Design Inspire | Architecting Digital Inspiration",
     description:
-      "Bespoke mobile and web applications built with SRE-grade reliability and visionary design.",
+      "Bespoke digital products powered by multi-cloud infrastructure, enterprise AI, and workflow automation—delivered with SRE-grade reliability.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Modus Dev Inspire | Architecting Digital Inspiration",
+    title: "Modus Design Inspire | Architecting Digital Inspiration",
     description:
-      "Bespoke mobile and web applications built with SRE-grade reliability and visionary design.",
+      "Bespoke digital products powered by multi-cloud infrastructure, enterprise AI, and workflow automation—delivered with SRE-grade reliability.",
   },
   metadataBase: new URL("https://modusdevinspire.com"),
 };

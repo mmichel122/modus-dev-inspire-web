@@ -6,31 +6,31 @@ import { motion } from "framer-motion";
 
 const cards = [
   {
-    title: "Ready to begin?",
+    title: "Discover",
     description:
-      "Start with discovery and strategy. We align technical vision with your product goals and deliver a clear roadmap.",
-    image: "/images/cta-phone.png",
-    imageAlt: "Mobile app mockup",
+      "Strategy and research to define your vision. We map the roadmap from concept to delivery.",
+    image: "/images/cta-discover.png",
+    imageAlt: "Discovery and strategy visualization",
     href: "#contact",
     cta: "Start my project",
     accent: "from-accent/20",
   },
   {
-    title: "Ready to build?",
+    title: "Build",
     description:
-      "High-performance engineering for web and mobile. We ship production-grade applications with clean architecture.",
-    image: "/images/cta-laptop.png",
-    imageAlt: "Laptop with code mockup",
+      "Expert engineering for applications, infrastructure, and AI. Production-grade systems with clean architecture.",
+    image: "/images/cta-build.png",
+    imageAlt: "Engineering and development visualization",
     href: "#services",
     cta: "See our work",
     accent: "from-purple-500/20",
   },
   {
-    title: "Ready to scale?",
+    title: "Scale",
     description:
-      "Scale and reliability with SRE practices. Observability, automation, and resilience built into every system.",
-    image: "/images/cta-desktop.png",
-    imageAlt: "Desktop monitor mockup",
+      "SRE practices for growth. Observability, automation, and resilience built into every system.",
+    image: "/images/cta-scale.png",
+    imageAlt: "Scaling and reliability visualization",
     href: "#contact",
     cta: "Get in touch",
     accent: "from-blue-500/20",
@@ -53,7 +53,7 @@ export default function ReadyToBegin() {
             id="ready-heading"
             className="font-serif text-display font-normal tracking-tight text-foreground"
           >
-            Ready to begin?
+            Your Journey
           </h2>
         </div>
 
@@ -73,8 +73,8 @@ export default function ReadyToBegin() {
                 <Image
                   src={card.image}
                   alt={card.imageAlt}
-                  width={i === 0 ? 120 : i === 1 ? 200 : 220}
-                  height={i === 0 ? 220 : i === 1 ? 130 : 150}
+                  width={200}
+                  height={200}
                   className="object-contain transition-transform duration-500 group-hover:scale-105"
                   unoptimized
                 />

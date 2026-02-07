@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="flex items-center gap-3">
             <Logo className="h-8 w-8 text-accent" />
             <span className="text-sm font-semibold uppercase tracking-[0.2em] text-foreground">
-              Modus Dev Inspire
+              Modus Design Inspire
             </span>
           </div>
 
@@ -57,7 +57,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-border/40 py-6 text-center">
           <p className="text-xs text-foreground-muted">
-            © {new Date().getFullYear()} Modus Dev Inspire. All rights reserved.
+            © {new Date().getFullYear()} Modus Design Inspire. All rights reserved.
           </p>
         </div>
       </div>

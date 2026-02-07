@@ -16,9 +16,9 @@ const tiers = [
   {
     title: "High-Performance Engineering",
     points: [
-      "Native and cross-platform mobile apps",
-      "Web applications and PWAs",
-      "APIs and backend systems",
+      "Custom applications and digital platforms",
+      "DevOps pipelines and cloud infrastructure",
+      "AI integration and automation workflows",
     ],
     cta: "Learn more",
   },
